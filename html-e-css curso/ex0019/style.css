@@ -1,0 +1,43 @@
+
+
+/*em HTML e id e igual = em css e #   id igual # (so pode  um elemento)
+
+ em HTML em class e igual = em css . class igual . (pode varios elementos)
+*/
+body {
+   background-color: rgb(45, 165, 165);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {color: rgb(19, 84, 40);
+    
+
+}
+
+#principal {
+    text-align: center;
+    background-color: rgb(9, 78, 30);;
+    color: white;
+
+}
+
+
+h2 {color:aqua
+}
+.basico { color:blue;
+    font-weight: bold;
+
+}
+h2.intermediario { color:rgb(236, 255, 127);
+}
+
+.avancado { color: red;
+
+}
+.take{ background-color: violet;
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+.destaque { background-color: chocolate;
+
+}

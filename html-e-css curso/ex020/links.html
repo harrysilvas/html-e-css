@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        /*
+        #  = id
+        .  = class
+        :  = pseudo class
+        :: = pseudo element
+        >  = clildren
+        
+        
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color:red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        :visited{
+            color: blue
+        }
+        a:active{
+            color: yellow;
+        }
+        .especial::after{ content: '⇐';
+        color: red;
+        text-decoration: none;
+        font-weight: lighter;
+
+        }
+        .especial::before{ content: '⇒';
+        color: red;
+
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        .especial{
+            background-color: rgba(113, 32, 32, 0.455);
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>personalizandos links</h1>
+    <ul>
+     <li><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf">Repositorio Githut</a></li> 
+     <li><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf">canal youtube</a></li>
+    <li><a href="https://www.youtube.com/channel/UC6HdTo1LhnoImjexuMky-CA" class="especial">site cursos videos</a></li>
+    </ul>
+    
+</body>
+</html>

@@ -17,12 +17,21 @@
             background-color: darkgray;
             color: white;
         }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 5px;
+            background-color: lightgray;
+           
+
+        }
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
     <!--ANATOMIA PARA TABELAS GRANDES
     TABLE
+    CAPTION = lengeda
         THEAD
              TR  DT  TH
         TBODY
@@ -30,10 +39,11 @@
         TFOOT 
              TR  DT  TH-->
        <table>
+        <caption>população das unidades federativas<caption>
         <thead>
             <tr>
-                <th>estado</th>
-                <th>população</th>
+                <th scope="col">estado</th>
+                <th scope="col" style="width: 50px;">população</th>
             </tr>
         </thead>
         <tbody>
@@ -149,7 +159,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>total de Habitantes</th>
+                <th scope="row">total de Habitantes</th>
                 <td>210.147.125</td>
             </tr>
             
